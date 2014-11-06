@@ -1,0 +1,3 @@
+ftp.sorteouv.org.mx
+usuario:  yeri@sorteouv.org.mx
+pass: yeri2000

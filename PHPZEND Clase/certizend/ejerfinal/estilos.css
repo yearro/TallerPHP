@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;}
+label{
+ line-height:15px;
+ padding-left:2px;
+ vertical-align:top;
+}
+

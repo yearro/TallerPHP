@@ -1,0 +1,40 @@
+Opción nativa pdo Data Object 
+
+en php.ini "Driver"
+
+ORM
+Concepto: Object-relational mapping (Mapeo Objeto-Relacional)
+
+1) Crear una base de datos o usar test
+
+2) Crear usuario exclusivo de la DB
+shell > GRANT ALL PRIVILEGIES ON *.* TO 'user'@'localhost'
+	 -> IDENTIFIED BY 'pass' WITH GRANT OPTION;
+
+shell > GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER ON
+	 -> baseDatos.* TO 'user'@'localhost'
+	 -> IDENTIFIED BY 'pass'; (Admin,123456)
+
+FLUSH PRIVILEGES;
+
+3) Verificar usuario creado en la base de datos de mysql
+shell -> SHOW GRANTS FOR 'user'@'host';
+
+4) Entrar al sistema con el usuario
+Desde root = (drop user usuario)
+_______________________________________________________________________________
+
+RedBeanPHP
+1) Descarga http://redbeanphp.com/download
+   Inclusión al código. Librería.
+   R::setup()
+
+2) Insertar = dispense(),store()
+
+3) Buscar = find(), gelAll()
+
+4) Recuperar = load()
+
+5) Actualizar = load(), store()
+
+6) Eliminar = load(), trash()

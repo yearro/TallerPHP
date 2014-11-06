@@ -1,0 +1,203 @@
+Módulo 1: 
+
+1) Conceptos básicos
+
+¿Qué es PHP?
+
+Archivos fuente
+ - http://www.pedroventura.com/php/problemas-codificacion-web-configurar-codificacion-utf8-php-mysql-y-html/
+ - AddType x-mapp-php5 .html .htm
+
+Tags
+	ASP 	<% %>
+	Script  <script languaje="php"> </script> 
+	Short   <?= ?>
+	Standar <?php ?>
+
+Incluir otro archivo 
+	include
+	require
+	include_once
+
+Comentarios
+
+Tipos de datos
+	settype
+	gettype
+	forzado (int,integer,double,real,float,string)
+
+Impresores
+	echo
+	print %d %s %f
+	heredoc <<<id id;
+	var_dump
+
+Cadenas
+	\n \t espacios en blanco
+	""
+	''
+	`ls`
+	Escapado
+	<br>
+
+Variables
+	Por asignación
+	Variables variables $$ ${$}
+	Valor por referencia $b = &$a
+
+Constantes
+	define('NOMBRE',valor)
+	constant
+
+Existencia de una variable
+	isset
+	empty
+	unset
+
+Operadores
+	Aritméticos
+	Lógicos
+	Incremento
+	Decremento
+	Asignación
+	Comparación
+	Supresión de errores @
+	(Mixin de operadores)
+
+	http://www.phpdoc.org/
+	http://www.epsilon-eridani.com/cubic/ap/cubic.php/doc/phpDocumentor---documentacion-para-codigo-PHP-246.html
+
+Estructuras de control
+	Selectiva
+	Selectiva doble
+	Selectiva multiple
+	switch
+	Bucles
+		do while
+		while
+		for
+		Die()
+		Exit()
+		Continue()
+	Sintáxis alterna
+
+
+2)Funciones
+
+	Sintáxis básica
+
+	Llamada a una función
+
+	Elevación de funciones
+
+	Ámbito de una variable
+
+	Retorno de valores
+
+	Paso de argumentos
+		Por defecto
+		Argumentos variables compact() extract()
+
+3) Arreglos
+	Numericos
+	
+	Asociativos
+	
+	Operaciones con arreglos
+
+Módulo 2:
+1) Cadenas
+
+	Elementos básicos
+		Acceso a elementos de una cadena
+		Buenas prácticas a elementos de una cadena (Sintáxis alterna)
+		Tamaño de una cadena (strlen)
+		Despligue de cadenas (foreach)
+
+	Comparación de cadenas
+		==
+		strcmp
+		strcasecmp
+			Operador tamaño a comparar
+		Comparación de subcadenas
+
+	Busqueda de patrones
+		Primera concurrencia strpos
+			Operador inicio
+		Primera aparición strstr()
+		Última aparición strrpos()
+		Reemplazo str_replace()
+
+	Formateo de cadenas
+		Reemplazo Avanzado str_replace()
+		Obtener subcadenas substr()
+			Operador cantidad de caracteres
+		Limpieza de cadenas ltrim,rtrim,trim
+		Todas minúsculas strtolower()
+		Todas mayúsculas strtoupper()
+		La primera letra mayúscula ucfirst()
+		Primeras letras mayúsculas ucwords()
+		Paso de formateo a frontend
+			text-transform: lowercase, uppercase, capitalize
+
+	Expresiones regulares
+		Herramientas eregi, preg_match
+		Operador de inicio ^ y fin $
+		Operador comodín .
+		Cuantificadores 
+			Una u mas veces +
+			Cero o más veces *
+			Cero o una vez ?
+			Definición exacta {A,B}
+		Rangos []
+			Negación [^]
+		Agrupaciones
+
+	Seguridad en cadenas
+		Filtros saneamiento
+		Filtros de validación
+
+	http://php.net/manual/es/book.filter.php
+
+	http://php.net/manual/es/function.filter-var.php
+
+	http://php.net/manual/es/filter.filters.php
+
+3) Programación Web
+	Super arreglos
+	$_SERVER, $_GET, $_POST, $_COOKIE, $_SESSION (Seguridad), $_FILES (Archivos)
+	Programas recursivos
+	(http://www.w3schools.com/html/html5_webstorage.asp)
+
+
+2) Archivos
+	Permisos de usuario
+	Formulario para subir archivos
+	Directivas:
+		file_uploads
+		upload_tmp_dir
+		post_max_size
+		max_input_time
+	$_FILES
+	Buenas prácticas al subir archivo
+	Forzar a leer un archivo 
+
+	Problemas: http://es.php.net/manual/es/features.file-upload.php
+
+Módulo 3: Ahora si vamos a ver cosas interesantes.
+
+1) POO (Programación Orientada a Objetos)
+	
+	Paradigma de Orientación a objetos
+	Clase (Modelo)
+	Objeto (Entidad)
+	Método (Que se puede hacer)
+	Atributos (Variables)
+	
+2) ORM
+
+3) Rest
+	http://www.recessframework.org/
+	http://www.slimframework.com/
+	
+

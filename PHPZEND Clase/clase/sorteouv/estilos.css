@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	background-image: url(imagenes/fondo1.gif);
+	background-repeat: repeat-x;
+}
+button{ cursor:pointer;}
+.difcur{ cursor:pointer;}
+
+/*-------------------------------------------------------------------
+   A PARTIR DE AQUI VIENEN LOS IDENTIFICADORES DE LA PLANTILLA BASICA 
+   
+   .pdf {
+padding: 0 0 0 22px;
+background: #FFF url(imagenes/pdf.png) no-repeat left center;
+}
+--------------------------------------------------------------------*/
+
+
+#edita_frase_mes textarea { width:350px; margin-top:10px; height:100px; border:1px #0099FF solid; padding:3px;}
+
+
+
+#Mensaje_Empleado_del_Mes{float:right; margin-left:5px; border:solid 1px #CCCCCC; width:300px; margin-top:5px; padding:5px; text-align:justify;}
+#Mensaje_Empleado_del_Mes2{float:right; margin-left:5px; border:solid 1px #CCCCCC; width:300px; margin-top:5px; padding:5px; text-align:justify;}
+#Mensaje_Empleado_del_Mes2 textarea { width:290px; height:100px; border:1px #0099FF solid; padding:3px;}
+#Modifica_Mensaje_Empleado_Mes{float:right; margin-left:5px; border:solid 1px #CCCCCC; width:300px; margin-top:5px; padding:5px;}
+#Foto_Usuario {width:140px; height:187px; float:left; border:solid 1px #CCCCCC; margin-right:5px; padding:5px; margin-top:5px;}
+#Foto_Usuario2 {width:140px; height:187px; float:left; border:solid 1px #CCCCCC; margin:5px 0px 0px 0px;}
+#Datos_Usuario {width:330px; height:104px; float:left; border:#CCCCCC 1px solid; padding:5px; margin-top:5px;}
+#Mnu_Edicion_Usuario{margin-top:5px; padding:5px; border:0px solid #999999; float:left; width:487px; text-align:right;}
+#NomArchivo{margin-top:5px; padding:5px; border:1px solid #999999; float:left; width:487px; text-align:left;}
+#SpaTitulo {background:url(imagenes/arrow-down.ico) left no-repeat;}
+#SpaNombre {margin-left:20px;}
+#DesArchivo{margin-top:5px; padding:5px; border:1px solid #999999; float:left; width:487px; text-align:justify;}
+.sivisible{display:block;}
+.novisible{display:none}
+#botonEnviar{ margin:5px;}
+#edita_frase_mes{text-align:center;}
+#edita_frase_mes textarea { width:350px; margin-top:10px; height:100px; border:1px #0099FF solid; padding:3px;}
+#DescripArch { width:260px; margin-top:10px; height:100px; border:1px #CCCCCC solid; padding:3px;}
+#formulario_nuevo_usuario{margin:0 auto; padding-bottom:5px; padding-left:5px; padding-top:5px; padding-right:100px; width:400px; text-align:right; border:#CCCCCC solid 1px;}
+#ConUsu{width:175px;}
+#formulario_nuevo_usuario div{margin-bottom:5px;}
+#formulario_nuevo_usuario input{ border: #CCCCCC 1px solid;}
+#formulario_nuevo_usuario select{ border:#CCCCCC 1px solid;}
+#edita_mensaje_urgente{text-align:center;}
+#edita_mensaje_urgente textarea { width:350px; margin-top:10px; height:100px; border:1px #0099FF solid; padding:3px;}
+#PerUsu{width:180px; border:#CCCCCC solid 1px;}
+/*input{width:200px;}*/
+#Consulta_Usuarios{
+	margin:10px auto;
+	border:#0066FF solid 1px;
+	width:500px;
+	padding:0px 5px 5px 5px;
+	/*border: thick solid #000;*/
+	height:1%;
+	overflow: hidden;
+}
+#Contenedor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 960px;
+	text-align: left;
+	height: auto;
+	margin:0 auto;
+}
+#encabezado {
+	width: auto;
+	height: 80px;
+	background-image: url(imagenes/logo.gif);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	/*vertical-align: middle;*/
+	padding: 10px;
+}
+#encabezado a {text-decoration:none; color:#FFFFFF; font-weight:bold; margin-right:25px;}
+#encabezado div {margin:0 0 0 auto; text-align:right; height:16px; padding-top:3px;}
+
+#saludo{padding-bottom:10px;}
+#perfil{background:url(imagenes/multi-user.ico) no-repeat right; width:80px; float:right; }
+#cerrar{background:url(imagenes/status-offline.ico) no-repeat right; float:right; width:60px;}
+#panel{background:url(imagenes/jabber-control.ico) no-repeat right; float:right;}
+
+#menu {
+	width: 960px;
+	height: 35px;
+	background-color: #FFFFFF;
+}
+#Titulo {
+	background-color: #FFFFFF;
+	width: 950px;
+	height: 50px;
+	background-image: url(imagenes/fondo2.gif);
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+#Opciones {
+	float: left;
+	width: 180px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+	height: auto;
+}
+#wrapper { 
+ margin: 0 auto;
+ background:#FFFFFF;
+ }
+#faux {
+ overflow: hidden; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%;
+}
+#columna_izq{
+ color: #333;
+ padding: 5px;
+ width: 574px;
+ float: left;
+ border-right:solid 1px #CCCCCC;
+}
+#columna_der { 
+ color: #333;
+ padding: 0px;
+ width: 374px;
+ float: right;
+} 
+#contenido {
+	background-color: #FFFFFF;
+	width: 940px;
+	height: auto;
+	overflow: auto;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#footer {
+	background-color: #009900;
+	width: auto;
+	height: 150px;
+	color: #FFFFFF;
+	padding: 20px;
+	clear:both;
+}
+
+/* --------------------------------------------------------------------------------
+   A PARTIR DE AQUI VIENEN LOS IDENTIFICADORES DE LOS DIV EDITABLES POR CADA PAGINA
+--------------------------------------------------------------------------------  */
+/* --------------
+  inicio.html 
+-------------- */
+
+#inicio_noticias {
+	float: left;
+	width: 535px;
+	background-color: #FFFFFF;
+	border-right: solid #CCC 1px;
+	margin-right: 10px;
+	padding-right: 15px;
+}
+#frase_del_mes {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: bold;
+	color: #009900;
+	float: left;
+	/*height: 120px; No se debe de dejar esta div con un tamaño fijo debido a que el temaño del contenido puede variar.*/ 
+	width: 355px;
+	padding: 10px 10px 10px 10px;
+	overflow: visible;
+}
+#inicio_titulo_frase {
+	height: 35px;
+	width: 375px;
+	border-bottom: solid #CCC 1px;
+	padding:5px;
+}
+#titulo_columna_derecha {
+	height: 35px;
+	width: 375px;
+	border-bottom: solid #CCC 1px;
+	padding:5px;
+}
+
+#inicio_titulo_urgente {
+	float: left;
+	/*height: 35px;*/
+	width: 375px;
+	border-bottom: solid #CCC 1px;
+}
+#inicio_urgente {
+	float: left;
+	/*height: 120px;*/
+	width: 355px;
+	padding: 10px 10px 10px 10px;
+	overflow: auto;
+	background-color: #FFFFCC;
+}
+
+
+
+/* --------------
+   boletin.html 
+-------------- */
+
+#boletin_texto {
+	float: left;
+	height: 450px;
+	width: 640px;
+	padding: 0px 10px 10px 10px;
+	overflow: visible;
+}
+
+#boletin_imagen {
+	float: left;
+	height: auto;
+	width: 280px;
+	overflow: hidden;
+}
+
+
+/* --------------
+   tips.html 
+-------------- */
+
+#tips_texto {
+	float: left;
+	height: 450px;
+	width: 640px;
+	padding: 0px 10px 10px 10px;
+	overflow: visible;
+}
+
+#tips_imagen {
+	float: left;
+	height: auto;
+	width: 280px;
+	overflow: hidden;
+}
+
+/* --------------
+   descargas.html 
+-------------- */
+
+#descargas {
+	float: left;
+	height: 250px;
+	width: 900px;
+	padding: 0px 10px 10px 10px;
+	overflow: visible;
+}
+
+
+/* --------------
+   personas.html 
+-------------- */
+
+#personas_1 {
+	float: left;
+	height: 200px;
+	width: 450px;
+	padding-right: 20px;
+}
+#personas_2 {
+	float: left;
+	height: 200px;
+	width: 450px;
+	padding: 10px 10px 10px 10px;
+}
+
+#personas_titulo1 {
+	float: left;
+	height: 35px;
+	/*width: 474px;*/
+	width:100%;
+	border-bottom:#CCCCCC 1px solid;
+	/*margin-bottom:5px;*/
+}
+
+#personas_titulo2 {
+	float: right;
+	height: 35px;
+	/*width: 472px;*/
+	width:100%;
+	border-bottom:#CCCCCC 1px solid;
+}
+
+#personas_imagen_empleado {
+	float: left;
+	height: 210px;
+	width: 140px;
+	padding-top: 10px;
+}
+
+#personas_texto_empleado {
+	float: left;
+	height: 200px;
+	width: 310px;
+	padding: 10px 10px 10px 10px;
+	overflow: auto;
+}
+
+#personas_titulo3 {
+	float: left;
+	height: 35px;
+	width: 940px;
+	margin-top: 10px;
+	clear:both;
+	border-bottom:#CCCCCC 1px solid;
+}
+#personas_cumpleaños {
+	float: left;
+	height: auto;
+	width: 450px;
+	padding: 10px 10px 10px 10px;
+}
+#personas_cumpleaños_imagen {
+	float: left;
+	height: 250px;
+	width: 450px;
+	padding: 10px 10px 10px 10px;
+	clear: right;
+}

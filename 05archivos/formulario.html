@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Subir un archivo</title>
+</head>
+<body>
+	<form enctype="multipart/form-data" action="recibeArchivo.php" method="POST">
+		<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+		Seleccionar archivo: <input name="archivo" type="file" /><br>	
+		<input type="submit" value="Enviar Archivo" />
+	</form>
+</body>
+</html>
